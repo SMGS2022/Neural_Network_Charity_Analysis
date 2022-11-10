@@ -12,7 +12,7 @@ Client needs help making predictions of where her foundation should make investm
 
 The "IS_SUCCESSFUL" category was the target variable for the model:
         
-image
+![split.png](images/split.png)
   
 - ### What variable(s) are considered to be the features for your model?
 
@@ -24,7 +24,7 @@ image
 
 Removed EIN and NAME columns for this model.
           
- image
+ ![unique.png](images/unique.png)
 
 ## Compile, Train and Evaluate the Model / Optimize
 
@@ -34,13 +34,13 @@ Removed EIN and NAME columns for this model.
      - 30 input/neurons are within the second layer.
      - Two total hidden layers and an output layer lay within this Neural Network                model, each containing activation functions: "relu" / "relu" and "sigmoid". 
 
-image
+![layer.png](images/layer.png)
 
 - ### Were you able to achieve the target model performance?
 
 The module did not meet the 75% target. The recorded accuracy was 72.5% with a loss of 55.9%.
 
-image
+![eval.png](images/eval.png)
 
 - ### What steps did you take to try and increase model performance?
 
