@@ -38,7 +38,7 @@ Removed EIN and NAME columns for this model.
 
 - ### Were you able to achieve the target model performance?
 
-The module did not meet the 75% target. The recorded accuracy was 72.5% with a loss of 55.9%.
+The module did not meet the 75% target. The recorded accuracy was 72.5% with a loss of 55%.
 
 ![eval.png](images/eval.png)
 
